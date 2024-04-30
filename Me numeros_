@@ -1,0 +1,7 @@
+import numpy as np
+
+
+numeros = [32, 57, 101, 77]
+for numero in numeros:
+    numeros_binario = np.binary_repr(numero)
+    print(f"O numero {numero} em binario e {numeros_binario}")
